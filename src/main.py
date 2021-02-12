@@ -3,6 +3,7 @@ from ursina.prefabs.first_person_controller import FirstPersonController
 
 app = Ursina()
 application.asset_folder = application.asset_folder.parent / "assets"
+window.exit_button.visible = False
 
 grass_texture = load_texture("grass_block.png")
 stone_texture = load_texture("stone_block.png")
